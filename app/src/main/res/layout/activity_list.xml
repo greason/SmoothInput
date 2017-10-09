@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.greason.smoothinput.DetectViewChange xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/testaa"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/mail_mobile"
+        android:hint="@string/mail_mobile"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAllCaps="false"/>
+
+    <ListView
+        android:id="@+id/scroll"
+        android:transcriptMode="normal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.greason.smoothinput.DetectViewChange>

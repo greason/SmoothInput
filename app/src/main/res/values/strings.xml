@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmoothInput</string>
+    <string name="haha_1">哈哈1</string>
+    <string name="debug_model">Debug模式</string>
+    <string name="mail_mobile">手机号    \n邮箱</string>
+
+</resources>

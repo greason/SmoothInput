@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.greason.smoothinput.DetectViewChange xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:text="Hello World!" />
+
+            <EditText
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="4dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="input1"
+                android:padding="4dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="input2"
+                android:padding="4dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="input3"
+                android:padding="4dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="input4"
+                android:padding="4dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:padding="20dp"
+                android:text="Hello World!" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</com.greason.smoothinput.DetectViewChange>
